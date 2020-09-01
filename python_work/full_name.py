@@ -1,4 +1,4 @@
-# Using f" Strings
+# Using and learning f" Strings
 
 # name = "carolina"
 # surname = "rolo"
