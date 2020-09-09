@@ -10,3 +10,6 @@ print(min(one_hundred))  # Printing the first number or min value
 print(max(one_hundred))  # Printing the last value of the list
 
 print(sum(one_hundred))  # Print the sum of the list
+
+
+
