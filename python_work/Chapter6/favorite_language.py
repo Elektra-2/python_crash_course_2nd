@@ -6,11 +6,12 @@ favorite_programming_languages = {
     'Ruiz': 'C++',
     'Antonio': ' Java'
     }
-print(favorite_programming_languages)
 
-chosen_language = favorite_programming_languages['caro'.title()]
-print(f"Caro's favourite programming language is {chosen_language}")
+for name, language in favorite_programming_languages.items():
+    print(f"{name.title()}' Favorite Language is {language.title()}")
 
+for name in favorite_programming_languages.keys():
+    print(name)
 
 # Using get() to access dictionary values
 # If you try accessing a key value that does not exits on the dictionary, you'll get a traceback keyerror

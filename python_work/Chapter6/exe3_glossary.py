@@ -5,4 +5,6 @@ python_glossary = {
     'git': 'version control system'
 }
 
-print(python_glossary)
+for key, value in python_glossary.items():
+    print(f'Key: {key}')
+    print(f"Value: {value}")
