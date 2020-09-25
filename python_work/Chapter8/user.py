@@ -1,4 +1,5 @@
 def new_user(name, email):
+    """Adds a new user to the website"""
     user = {
         'name': name,
         'email': email,
