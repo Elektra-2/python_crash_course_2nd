@@ -15,5 +15,10 @@ class Dog:
 
 
 my_dog = Dog('Serena', 3)
-my_dog.sit()
+my_otherdog = Dog('Mali', 12)
 print(f"My Dog's name is {my_dog.name} and her age is {my_dog.age}")
+print(f"My Dog's name is {my_otherdog.name} and her age is {my_otherdog.age}")
+
+my_dog.sit()
+my_otherdog.sit()
+my_dog.roll()
